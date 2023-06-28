@@ -15,5 +15,7 @@ export enum NodeType {
     Call = "Call",
     TypeReference = "TypeReference",
     Inheritance = "Inheritance",
-    New ="New"
+    New ="New",
+
+    Import = "Import",
 }

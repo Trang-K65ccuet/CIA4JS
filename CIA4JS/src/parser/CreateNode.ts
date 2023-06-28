@@ -17,6 +17,9 @@ import { PropertyNode } from '../graph/SimpleNode/PropertyNode';
 import { VariableNode } from '../graph/SimpleNode/VariableNode';
 import { NewNode } from '../graph/DependencyNode/NewNode';
 import { ConstructorNode } from '../graph/SimpleNode/ConstructorNode';
+import { Position } from '../graph/SimpleNode/SourceCodeNode';
+import { ImportNode } from '../graph/DependencyNode/ImportNode';
+import path from 'path';
 
 export function createFunctionNode(nodeAST: ts.Node, parentNode: Node, dep_graph: DependencyGraph, idNumber: number) {
     if (!ts.isFunctionDeclaration(nodeAST) && !ts.isFunctionExpression(nodeAST) && !ts.isArrowFunction(nodeAST) && !ts.isMethodDeclaration(nodeAST)) {
@@ -167,16 +170,15 @@ export function createNewNode(nodeAST: ts.Node, parentNode: Node, dep_graph: Dep
 }
 
 export function createCallNode(nodeAST: ts.Node, parentNode: Node, dep_graph: DependencyGraph, typeChecker: ts.TypeChecker) {
-    let callName = "callnode";
-    
+    let callName = "CallNode";
     let symbol = ps.getSymbolFromNode(nodeAST.getChildAt(0), typeChecker);
+    
     if (symbol) {
-        
-        //if (symbol2) {console.log(symbol2)}
-        //console.log(symbol.valueDeclaration);
+
         const declaration = symbol.getDeclarations();
+        
         if (declaration) {
-            //console.log(symbol);
+            //let refSourceFile = path.normalize(declaration[0].getSourceFile().fileName).replace(/\\/g, '/');
             let callNode = new CallNode(
                 callName,
                 parentNode,
@@ -186,7 +188,7 @@ export function createCallNode(nodeAST: ts.Node, parentNode: Node, dep_graph: De
                 ps.getPosition(declaration[0]),
                 NodeType.Call);
             dep_graph.createEdge(parentNode, callNode, DependencyType.Member);
-            //dep_graph.createEdge(callNode, parentNode, DependencyType.Member);
+            //dep_graph.createEdge(callNode, parentNode, NodeDependency.Member);
         }
         
     }
@@ -214,7 +216,7 @@ export function createTypeReferenceNode(nodeAST: ts.Node, parentNode: Node, dep_
 
 export function createInheritanceNode(nodeAST: ts.Node, parentNode: Node, dep_graph: DependencyGraph, typeChecker: ts.TypeChecker) {
     let inheritanceName = "InheritanceNode";
-    let symbol =ps. getSymbolFromNode(nodeAST.getChildAt(0), typeChecker);
+    let symbol =ps.getSymbolFromNode(nodeAST.getChildAt(0), typeChecker);
 
     if (symbol) {
         const declaration = symbol.getDeclarations();
@@ -229,6 +231,38 @@ export function createInheritanceNode(nodeAST: ts.Node, parentNode: Node, dep_gr
                 NodeType.Inheritance);
             dep_graph.createEdge(parentNode, inheritanceNode, DependencyType.Member);
             //dep_graph.createEdge(inheritanceNode, parentNode, DependencyType.Member);
+        }
+    }
+}
+
+export function createImportNode(
+    nodeAST: ts.Node, 
+    parentNode: Node, 
+    dep_graph: DependencyGraph, 
+    typeChecker: ts.TypeChecker, 
+    fileName: string, 
+    refName: string, 
+    alias: string,
+    position: Position) {
+    let importName = "importNode";
+        
+    let symbol = ps.getSymbolFromNode(nodeAST, typeChecker);
+      
+        
+    if (symbol) {
+        const declaration = symbol.getDeclarations();
+        
+        if (declaration) {            
+            let refSourceFile = declaration[0].getSourceFile();
+            
+            let importNode = new ImportNode(
+                refName,
+                parentNode,
+                position,
+                refName, // refName
+                alias, // alias
+                fileName,);
+            dep_graph.createEdge(parentNode, importNode, DependencyType.Member);
         }
     }
 }

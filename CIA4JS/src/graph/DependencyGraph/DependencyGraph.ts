@@ -63,18 +63,20 @@ export class DependencyGraph {
     removeRefNodeInGraph() {
         for (let i = 0; i < this.nodes.length; i++) {
             if (this.nodes[i].getType() === NodeType.Call 
-            || this.nodes[i].getType() === NodeType.New
+            || this.nodes[i].getType() === NodeType.New 
             || this.nodes[i].getType() === NodeType.TypeReference
-            || this.nodes[i].getType() === NodeType.Inheritance ) {
+            || this.nodes[i].getType() === NodeType.Inheritance
+            || this.nodes[i].getType() === NodeType.Import ) {
               this.nodes.splice(i, 1);
               i--;
             }
         }
         for (let i = 0; i < this.edges.length; i++) {
             if (this.edges[i].getTargetNode().getType() === NodeType.Call 
-            || this.edges[i].getTargetNode().getType()  === NodeType.New
+            || this.edges[i].getTargetNode().getType()  === NodeType.New 
             || this.edges[i].getTargetNode().getType()  === NodeType.TypeReference
-            || this.edges[i].getTargetNode().getType()  === NodeType.Inheritance ) {
+            || this.edges[i].getTargetNode().getType()  === NodeType.Inheritance
+            || this.edges[i].getTargetNode().getType() === NodeType.Import ) {
               this.edges.splice(i, 1);
               i--;
             }

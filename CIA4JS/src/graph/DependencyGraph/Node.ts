@@ -1,5 +1,6 @@
 import { NodeType } from "../../type/NodeType";
 import { Edge } from "./Edge";
+import * as path from 'path';
 export abstract class Node {
     protected readonly id: string;
     protected idNumber: number;
@@ -10,7 +11,7 @@ export abstract class Node {
     protected incomingEdges: Array<Edge> = [];
     protected outgoingEdges: Array<Edge> = [];
     public path: string;
-    public idClass: string = "TypeScriptNode"
+    public idClass: string = "JavascriptNode"
     constructor(id: string, name: string, path: string, parent: Node | null, type: NodeType, idNumber: number) {
         this.id = id;
         this.name = name;
@@ -31,7 +32,11 @@ export abstract class Node {
     } 
 
     getPath() {
-        return this.path;
+        return path.normalize(this.path).replace(/\\/g, '/');
+    }
+
+    setPath(path: string) {
+        this.path = path
     }
 
     getName() {
@@ -65,7 +70,8 @@ export abstract class Node {
             if (this.children[i].getType() === NodeType.Call 
             || this.children[i].getType() === NodeType.New 
             || this.children[i].getType() === NodeType.TypeReference
-            || this.children[i].getType() === NodeType.Inheritance ) {
+            || this.children[i].getType() === NodeType.Inheritance 
+            || this.children[i].getType() === NodeType.Import) {
               this.children.splice(i, 1);
               i--;
             }
@@ -74,7 +80,8 @@ export abstract class Node {
             if (this.outgoingEdges[i].targetNode.getType() === NodeType.Call 
             || this.outgoingEdges[i].targetNode.getType() === NodeType.New 
             || this.outgoingEdges[i].targetNode.getType() === NodeType.TypeReference
-            || this.outgoingEdges[i].targetNode.getType() === NodeType.Inheritance ) {
+            || this.outgoingEdges[i].targetNode.getType() === NodeType.Inheritance 
+            || this.outgoingEdges[i].targetNode.getType()=== NodeType.Import) {
               this.outgoingEdges.splice(i, 1);
               i--;
             }

@@ -10,8 +10,10 @@ import { CallNode } from '../graph/DependencyNode/CallNode';
 import { TypeReferenceNode } from '../graph/DependencyNode/TypeReferenceNode';
 import { DefaultNode } from '../graph/DependencyGraph/DefaultNode';
 import { InheritanceNode } from '../graph/DependencyNode/InheritanceNode';
+import { NewNode } from '../graph/DependencyNode/NewNode';
+import { ImportNode } from '../graph/DependencyNode/ImportNode';
 
-type ReferenceNode = TypeReferenceNode | CallNode | InheritanceNode;
+type ReferenceNode = TypeReferenceNode | CallNode | InheritanceNode | NewNode;
 
 export function getPosition(nodeAST: ts.Node) {
     const sourceFile = nodeAST.getSourceFile();
@@ -39,7 +41,7 @@ export function getNameForRefNode(nodeAST: ts.Node) {
         })
     }
     if (ts.isFunctionDeclaration(nodeAST) || ts.isMethodDeclaration(nodeAST) || ts.isClassDeclaration(nodeAST)
-    || ts.isTypeAliasDeclaration(nodeAST) || ts.isInterfaceDeclaration(nodeAST)) {
+    || ts.isTypeAliasDeclaration(nodeAST) || ts.isInterfaceDeclaration(nodeAST) || ts.isImportSpecifier(nodeAST)) {
     if (nodeAST.name) {
         nodeName = nodeAST.name.getText()
     }
@@ -66,7 +68,8 @@ export function findNodeName(nodeAST: ts.Node) {
 
     // Initialize the name for the node if its name is not undefined.
     if (ts.isFunctionDeclaration(nodeAST) || ts.isMethodDeclaration(nodeAST) || ts.isClassDeclaration(nodeAST)
-        || ts.isTypeAliasDeclaration(nodeAST) || ts.isInterfaceDeclaration(nodeAST) || ts.isVariableDeclaration(nodeAST)) {
+        || ts.isPropertyDeclaration(nodeAST) || ts.isInterfaceDeclaration(nodeAST) || ts.isVariableDeclaration(nodeAST)
+        ) {
         if (nodeAST.name) {
             name = nodeAST.name.getText()
         }
@@ -95,9 +98,12 @@ export function getIdentify(nodeAST: ts.Node):ts.Node | undefined {
     return nodeIdentify;
 }
 
-export function getNodeFromReference(node: Node, refNode: ReferenceNode): Node | undefined {
+function getNodeFromReference(node: Node, refNode: ReferenceNode): Node | undefined {
+    
     for (let childNode of node.getChildren()) {
-        if (childNode instanceof DefaultNode && refNode.refSourceFile.startsWith(childNode.getPath())) {
+        let filePath = childNode.getPath().replace(/\/\//g, "/");
+        
+        if (childNode instanceof DefaultNode && refNode.refSourceFile.startsWith(filePath)) {
             return getNodeFromReference(childNode, refNode);
         }
 
@@ -109,6 +115,23 @@ export function getNodeFromReference(node: Node, refNode: ReferenceNode): Node |
             return getNodeFromReference(childNode, refNode);
         }
     }
+    return undefined;
+}
+
+function getNodebyImportNode(node: Node, refNode: ImportNode): Node | undefined {
+    for (let childNode of node.getChildren()) {
+        let filePath = childNode.getPath();
+        //console.log(filePath);
+        
+        if (childNode instanceof DefaultNode && refNode.refSourceFile.startsWith(filePath)) {
+            return getNodebyImportNode(childNode, refNode);
+        }
+
+        if (childNode instanceof SourceCodeNode && refNode.refName == childNode.getName()) {
+            return childNode;
+        }
+    }
+
     return undefined;
 }
 
@@ -125,9 +148,14 @@ export function getParentClasses(node: ClassNode): undefined | ClassNode {
 export function createDependencyEdge(refNode: Node, dep_graph: DependencyGraph, dependencyType: DependencyType) {
     if (dependencyType === DependencyType.Use || dependencyType === DependencyType.Invocation || dependencyType == DependencyType.Inheritance) {
         let targetNode = getNodeFromReference(dep_graph.root, refNode as ReferenceNode);
+        
+        while(targetNode?.getType() === NodeType.Import) {
+            targetNode = getNodebyImportNode(dep_graph.root, targetNode as ImportNode);
+        }
+
         if (targetNode) {
             dep_graph.createEdge(refNode.getParent() as Node, targetNode, dependencyType);
-            console.log(`${DependencyType}: "${refNode.getParent()?.toString()}" --> "${targetNode.toString()}"`);
+            console.log(`${dependencyType}: "${refNode.getParent()?.toString()}" --> "${targetNode.toString()}"`);
         }
     } 
 
