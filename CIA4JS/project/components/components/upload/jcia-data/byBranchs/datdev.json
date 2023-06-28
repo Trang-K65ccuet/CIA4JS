@@ -1,0 +1,1871 @@
+[
+  {
+    "name": "a3675bbc3d566d66c7d01416a0f45298f3522a06",
+    "author": "ducduongn",
+    "branch": "refs/heads/datdev",
+    "time": "2022-02-13T13:35:18.000+00:00",
+    "message": "merge\n"
+  },
+  {
+    "name": "307ed7e7a7aec39324cf2027b6c2bddd8563b6ea",
+    "author": "ducduongn",
+    "branch": "refs/heads/datdev",
+    "time": "2022-02-13T13:31:54.000+00:00",
+    "message": "Merge branch 'Spring-dev' of https://github.com/jcia-sqa/jcia-backend into datdev\n"
+  },
+  {
+    "name": "57634cd95023662896e81adae82b1b1e48ee4aa6",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2022-02-13T13:30:39.000+00:00",
+    "message": "Update .gitignore\n"
+  },
+  {
+    "name": "95f9a79a7992fc477d017dba20b79e747b5a9e76",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2022-02-13T13:30:12.000+00:00",
+    "message": "Update for merge\n"
+  },
+  {
+    "name": "73417858e0f249974b44d96e3a3072e257e7920a",
+    "author": "ducduongn",
+    "branch": "refs/heads/datdev",
+    "time": "2022-02-13T13:29:42.000+00:00",
+    "message": "merge\n"
+  },
+  {
+    "name": "8e51eb200bcb75c35fe4a14808408c811b0969bc",
+    "author": "ducduongn",
+    "branch": "refs/heads/datdev",
+    "time": "2022-02-13T13:26:24.000+00:00",
+    "message": "todo: fix id from string to long\n"
+  },
+  {
+    "name": "850004e571183a3a92c2d08d567bdfa08998f386",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-02-13T11:20:35.000+00:00",
+    "message": "disable cors per service, only allow cors in gateway\n"
+  },
+  {
+    "name": "9697321b033e48161f35994a7535eb193734b82b",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-02-13T05:12:07.000+00:00",
+    "message": "fix commit cho ngai duong\n"
+  },
+  {
+    "name": "ca480b45a47dedd065561a532a4a2a898c8c8b93",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-02-10T13:52:50.000+00:00",
+    "message": "reconfig cors in gateway\n"
+  },
+  {
+    "name": "6c8217527bd6553ae13fe904e2d84110fb4a0801",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-02-02T14:03:37.000+00:00",
+    "message": "update works\n"
+  },
+  {
+    "name": "3b2a9950ac4ae0074163e3b8b78e03b8bed41413",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-30T14:32:36.000+00:00",
+    "message": "Merge pull request #54 from jcia-sqa/datdev\n\nupdate new version of git-service"
+  },
+  {
+    "name": "7f34a8615706112b8127fc939c614af31bef369d",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-30T14:24:55.000+00:00",
+    "message": "delete zip file before compress\n"
+  },
+  {
+    "name": "ba3151f5e55347f9f5e323c1e3623c177e9de2ec",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-30T13:46:13.000+00:00",
+    "message": "update works\n"
+  },
+  {
+    "name": "4a4af92453c8e63dce54c7f2bc85ca6cb720fae7",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-30T10:48:17.000+00:00",
+    "message": "update zip project after clone\n"
+  },
+  {
+    "name": "f55facfd15d3492440acf130d05e8a791d4e3968",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-30T09:25:50.000+00:00",
+    "message": "update new version of git service\n"
+  },
+  {
+    "name": "8c2ece7f1eb6270787c60f0f3b8a403d9f2c6c1d",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-27T14:19:08.000+00:00",
+    "message": "update works\n"
+  },
+  {
+    "name": "df0e7d479f6a0ef8e0140b3b7e34733ce2f84167",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-26T15:14:19.000+00:00",
+    "message": "update works\n"
+  },
+  {
+    "name": "1e0f76c54c71f36cf3840a85b687f022a5c4e044",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-25T13:48:36.000+00:00",
+    "message": "update works\n"
+  },
+  {
+    "name": "4135bcecf0339ce90d68fb2803e6d23b27481ddc",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-23T12:10:57.000+00:00",
+    "message": "Merge pull request #53 from jcia-sqa/merge_code_2022_01_23\n\nMerge code 2022 01 23"
+  },
+  {
+    "name": "39dfcfa8839bedd838a5fb489ff8c56c125f506a",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-23T09:31:39.000+00:00",
+    "message": "update\n"
+  },
+  {
+    "name": "c2c74cf98af294b9c11170f207af7376cd8e61ba",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-23T09:07:05.000+00:00",
+    "message": "fix conflict code\n"
+  },
+  {
+    "name": "038e96fb59777ae0a4d07d8c738691660e445613",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-23T09:04:15.000+00:00",
+    "message": "Update .gitignore"
+  },
+  {
+    "name": "ee79a9c8154a14171061f8adc79a8fb6bfa1b70b",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-23T08:49:29.000+00:00",
+    "message": "merge code datdev to spring-dev\n"
+  },
+  {
+    "name": "7fda010cda5e8d293a0507561e883caf1745a3ff",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-23T08:34:42.000+00:00",
+    "message": "update address host, revoke localhost on remote address call between services\n"
+  },
+  {
+    "name": "7fe66bb5b0cb8b5f0fe08e5ff9af8168c6e0ed63",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-21T15:27:12.000+00:00",
+    "message": "Update README.adoc"
+  },
+  {
+    "name": "7fa6c209b368e8d25405c05643b0617ea2251059",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-20T08:54:29.000+00:00",
+    "message": "Change register and login policy\n"
+  },
+  {
+    "name": "03868e724706f7f16149a01361c412d766d6aaa6",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-19T02:49:35.000+00:00",
+    "message": "Add Table Constraints\n"
+  },
+  {
+    "name": "dd0559765da10c7f5a5b182a1e38f817b124515c",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-19T02:44:07.000+00:00",
+    "message": "Add Table Constraints\n"
+  },
+  {
+    "name": "299c20783b6c72a571ef14fccca90211bc3ea85d",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-19T01:07:05.000+00:00",
+    "message": "Update jcia-ci.yml"
+  },
+  {
+    "name": "ab49aeb6d0786de813927eee3c58d1f2e00c23bc",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-18T16:04:29.000+00:00",
+    "message": "Add Version and Project saving\n"
+  },
+  {
+    "name": "7a4e16fe1162607366797f3f0e1a2a8ab7434993",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-18T09:50:12.000+00:00",
+    "message": "Merge pull request #51 from jcia-sqa/version-compare\n\nadd git token and change file saved path policy"
+  },
+  {
+    "name": "5ff24900e2c969147a100ea271a2adc86180cd12",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-18T08:56:59.000+00:00",
+    "message": "add token for User\n"
+  },
+  {
+    "name": "f985abe0e5a41686041456f40ea05996b0aa8257",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-18T08:06:03.000+00:00",
+    "message": "add git token for User\n"
+  },
+  {
+    "name": "4291f2987adc2ae7b772b98d4e50ca1164adabd6",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-18T08:00:50.000+00:00",
+    "message": "change storage file policy\n"
+  },
+  {
+    "name": "92dcd1997dc19538f9a14eefcb17724637812a57",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-17T10:21:45.000+00:00",
+    "message": "Change storage file saving policy\n"
+  },
+  {
+    "name": "cea628e60b0c57a3731293edf88fdb56b7a00a34",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-15T14:53:19.000+00:00",
+    "message": "add subdirs utils\n"
+  },
+  {
+    "name": "2da83873c7d43f54e88e4666392b508923f2505d",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-12T10:55:17.000+00:00",
+    "message": "Update README.adoc"
+  },
+  {
+    "name": "e3a62b7101ea4c437ecb602df0dab428c7f7c0a4",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-11T01:10:42.000+00:00",
+    "message": "Update mvn-verify.sh"
+  },
+  {
+    "name": "45e90e85c76a0ed8e2c1fc957576c8ce0044fba7",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T14:22:02.000+00:00",
+    "message": "Merge pull request #50 from jcia-sqa/datdev\n\nadd api-gateway bủh bủh lmao"
+  },
+  {
+    "name": "dbd049f93c466ded7d8512035294c04f9cf17055",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T14:14:09.000+00:00",
+    "message": "update api-gateway logback\n"
+  },
+  {
+    "name": "aaf4028341caa66169f5db05c02d9c22e4b59153",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T14:07:58.000+00:00",
+    "message": "add api-gateway service\n"
+  },
+  {
+    "name": "23c0a83cb747b53fc4911b0d33a7f46d11827284",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T12:27:31.000+00:00",
+    "message": "Merge branch 'Spring-dev' of github.com:jcia-sqa/JCIA-Microservices into datdev\n"
+  },
+  {
+    "name": "b46edfceac245c9c4c269ffd67f7795913bbb76b",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T03:49:24.000+00:00",
+    "message": "remove untracked file and fix port in docker-compose.yml file\n"
+  },
+  {
+    "name": "373602325ee71993efd689017e7ef10e07f800a8",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T03:13:16.000+00:00",
+    "message": "Merge pull request #49 from jcia-sqa/datdev\n\nadd continuous integration (ci) to project"
+  },
+  {
+    "name": "08ada835563b9f84dd8ac69052a4229bc5453003",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T03:01:12.000+00:00",
+    "message": "add script files\n"
+  },
+  {
+    "name": "0b655bea572020a865e0bc62766a311a154de390",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T02:55:40.000+00:00",
+    "message": "fix ci file and add scripts\n"
+  },
+  {
+    "name": "828e8bbb95177652d98e83e8dc386c04df536dda",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T02:52:47.000+00:00",
+    "message": "fix ci file and add scripts\n"
+  },
+  {
+    "name": "baf3d2f6f40ae5316207d9611e7390cebaecd566",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T02:36:30.000+00:00",
+    "message": "fix ci file\n"
+  },
+  {
+    "name": "0f8b16de9e3837113a3bac6b02fc3e50c26110a7",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T02:31:36.000+00:00",
+    "message": "fix ci file\n"
+  },
+  {
+    "name": "3935845fcaac7cc10a74cf07c84a4c7cc3e3f146",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T02:29:41.000+00:00",
+    "message": "fix ci file\n"
+  },
+  {
+    "name": "aea8a08e9ada1cd1386a0a3fc4b053f63e90b7bd",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T02:24:22.000+00:00",
+    "message": "fix ci\n"
+  },
+  {
+    "name": "965866052eed016250c174aee7991bb8e44c40aa",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T02:19:38.000+00:00",
+    "message": "fix ci\n"
+  },
+  {
+    "name": "8df53da20ea7af656ef0d74a8282206f245e5d03",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T02:17:29.000+00:00",
+    "message": "fix ci\n"
+  },
+  {
+    "name": "cc4c09a0b72710d185a11a985abf68ad5a5e69d9",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-10T02:12:29.000+00:00",
+    "message": "ci\n"
+  },
+  {
+    "name": "1143d7d3e31a43a55e3ff200f643d317fbae3fec",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-09T12:31:37.000+00:00",
+    "message": "Merge pull request #48 from jcia-sqa/datdev\n\nToggle version compare option by header parameters in git-service"
+  },
+  {
+    "name": "707ee9e5dc3ba65b83ec352a3faac1fc20784e68",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-09T12:30:30.000+00:00",
+    "message": "gitignore logs folder\n"
+  },
+  {
+    "name": "c4ab662ff317e9f05cf3e8ae0904323276bfd7b4",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-09T12:29:45.000+00:00",
+    "message": "toggle version compare option by header parameters in git-service\n"
+  },
+  {
+    "name": "dd5c05e9482b88c0ac6bf22fb4bbb43ad58dd597",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-09T04:05:50.000+00:00",
+    "message": "Merge pull request #47 from jcia-sqa/datdev\n\nDatdev"
+  },
+  {
+    "name": "637bb4c3bd944504282529e07367227b3a51ac48",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-08T13:09:01.000+00:00",
+    "message": "Merge branch 'datdev' of github.com:jcia-sqa/JCIA-Microservices into datdev\n"
+  },
+  {
+    "name": "89f3ba198c117f65f7135fb6b4bdd8fc7e4bb200",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-08T13:08:19.000+00:00",
+    "message": "refactor api\n"
+  },
+  {
+    "name": "a067cf8fab3c4bfcad2ee3be9c25bea44842d69d",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-08T04:56:55.000+00:00",
+    "message": "Update README.adoc"
+  },
+  {
+    "name": "d2b560523f0b595aa92a081e9d9964b9c1a64f3f",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-07T02:18:32.000+00:00",
+    "message": "Update README.adoc"
+  },
+  {
+    "name": "d7693d104ff649f8e39d922341cf54bf5a118f3e",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-06T02:34:11.000+00:00",
+    "message": "fix build script for linux\n"
+  },
+  {
+    "name": "351a1ed4fde6d0917ce1c2ff365aa7dd347cb4e1",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-06T01:00:47.000+00:00",
+    "message": "Merge pull request #46 from jcia-sqa/datdev\n\nDatdev"
+  },
+  {
+    "name": "70485bfad1031a45a7a2b9327175d6766baea020",
+    "author": "dependabot[bot]",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-06T00:59:18.000+00:00",
+    "message": "Bump log4j-api from 2.17.0 to 2.17.1 in /github-service (#42)\n\nBumps log4j-api from 2.17.0 to 2.17.1.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: org.apache.logging.log4j:log4j-api\r\n  dependency-type: direct:production\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+  },
+  {
+    "name": "651b344ce0c538d2ebf3d27c7e26e7911b1d1da4",
+    "author": "dependabot[bot]",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-06T00:59:03.000+00:00",
+    "message": "Bump log4j-api from 2.17.0 to 2.17.1 in /xml-service (#43)\n\nBumps log4j-api from 2.17.0 to 2.17.1.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: org.apache.logging.log4j:log4j-api\r\n  dependency-type: direct:production\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+  },
+  {
+    "name": "502e5ec1a0d4659463b8b2c336e6b5424bc2c1ba",
+    "author": "dependabot[bot]",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-06T00:58:39.000+00:00",
+    "message": "Bump log4j-core from 2.17.0 to 2.17.1 in /xml-service (#44)\n\nBumps log4j-core from 2.17.0 to 2.17.1.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: org.apache.logging.log4j:log4j-core\r\n  dependency-type: direct:production\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+  },
+  {
+    "name": "31ec9ce708a10c71acb9b385eb6d0e886c0aeaad",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-05T05:28:47.000+00:00",
+    "message": "Update README.adoc"
+  },
+  {
+    "name": "7332da6b8cb008f067778eca353caef7370511b2",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-02T14:51:30.000+00:00",
+    "message": "update logs folder for all services\n"
+  },
+  {
+    "name": "163a7f1f635a3533f22e6c7a95c35b9ff46ffc96",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-02T13:59:21.000+00:00",
+    "message": "Merge pull request #41 from jcia-sqa/datdev\n\nlogback"
+  },
+  {
+    "name": "c5c198b26563d3fe6fbeecd406d1886fcc47965c",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-02T13:58:34.000+00:00",
+    "message": "add logback\n"
+  },
+  {
+    "name": "31cdc0718f52cea3dcd9f38cb0b2ecf2aeb4a423",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-02T13:27:15.000+00:00",
+    "message": "Merge pull request #31 from jcia-sqa/dependabot/maven/xml-service/org.apache.logging.log4j-log4j-api-2.17.0\n\nBump log4j-api from 2.15.0 to 2.17.0 in /xml-service"
+  },
+  {
+    "name": "d4e71cab428bda3896f9ef90bfcc53bf36842dc6",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-02T13:26:38.000+00:00",
+    "message": "Merge pull request #32 from jcia-sqa/dependabot/maven/github-service/org.apache.logging.log4j-log4j-api-2.17.0\n\nBump log4j-api from 2.15.0 to 2.17.0 in /github-service"
+  },
+  {
+    "name": "437fd32c49454b065caa789260cd73d29d671c41",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2022-01-02T13:26:09.000+00:00",
+    "message": "Merge pull request #33 from jcia-sqa/dependabot/maven/xml-service/org.apache.logging.log4j-log4j-core-2.17.0\n\nBump log4j-core from 2.15.0 to 2.17.0 in /xml-service"
+  },
+  {
+    "name": "2f14bd5a773c3909dcdca7f6bf1489cc49d6a8eb",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-31T02:55:26.000+00:00",
+    "message": "Merge pull request #40 from jcia-sqa/datdev\n\nBump log4j to newer version"
+  },
+  {
+    "name": "b347cc372e46798ca4f7451b9e0c4c8a20783999",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-31T02:54:20.000+00:00",
+    "message": "Merge pull request #34 from jcia-sqa/dependabot/maven/github-service/org.apache.logging.log4j-log4j-core-2.17.0\n\nBump log4j-core from 2.15.0 to 2.17.0 in /github-service"
+  },
+  {
+    "name": "8c71b5fcb48c91dffa3e09c4d6a252ac0f1ffcc3",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-28T10:23:23.000+00:00",
+    "message": "Merge pull request #39 from jcia-sqa/datdev\n\nupdate docker compose and build script"
+  },
+  {
+    "name": "b63445d1815dbe0506a60d6653d28944cac76b05",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-26T10:25:28.000+00:00",
+    "message": "update docker compose and build script\n"
+  },
+  {
+    "name": "ec491cfc88abdb3d5ae067f4552473e52501f449",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-25T09:34:10.000+00:00",
+    "message": "Merge pull request #38 from jcia-sqa/datdev\n\nchanges in properties file parser and logger"
+  },
+  {
+    "name": "a7f1db253b87df763e7933b23c9b982012147641",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-25T09:33:17.000+00:00",
+    "message": "changes in properties file parser and logger\n"
+  },
+  {
+    "name": "c8ea37013df35b49f1f8be2f99a9ed5d271155b0",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-24T10:59:30.000+00:00",
+    "message": "Merge pull request #37 from jcia-sqa/datdev\n\nrefactor code and add logback"
+  },
+  {
+    "name": "fb1c16a712be35f0405c9fe5a5786fc6321c98cc",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-24T04:37:19.000+00:00",
+    "message": "refactor code and add logback\n"
+  },
+  {
+    "name": "37d5d50847597393f0257d3bbf958a268303cc5f",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-24T02:59:03.000+00:00",
+    "message": "Merge pull request #36 from jcia-sqa/datdev\n\nChange Git Service"
+  },
+  {
+    "name": "e32b24ae071ebd77b2b5f2f83200b12ac17358c3",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-24T02:57:50.000+00:00",
+    "message": "update repo api\n"
+  },
+  {
+    "name": "5b17d0675528519cdb2ec187d85709b5d54a5dfd",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-23T12:04:18.000+00:00",
+    "message": "change github service\n"
+  },
+  {
+    "name": "edd7372a2af45c66686966b21e4c5a1f2a1391a5",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-23T04:25:41.000+00:00",
+    "message": "Merge pull request #35 from jcia-sqa/datdev\n\nAdd analyze denpendencies from PropsNode to XmlNodes"
+  },
+  {
+    "name": "a237a460391eac6cb44c07fae4cbe5f9761548cb",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-23T04:23:20.000+00:00",
+    "message": "done dependencies from properties node to xmlNodes\n"
+  },
+  {
+    "name": "986fa1f14110bd91e3f2e22cbfb032bc8317a91b",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-23T01:00:26.000+00:00",
+    "message": "refactor xml parser to multithreading\n"
+  },
+  {
+    "name": "6e18e95e76ab1128c9cd35cb40da05ad3da4b73a",
+    "author": "dependabot[bot]",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-18T18:38:51.000+00:00",
+    "message": "Bump log4j-core from 2.15.0 to 2.17.0 in /github-service\n\nBumps log4j-core from 2.15.0 to 2.17.0.\n\n---\nupdated-dependencies:\n- dependency-name: org.apache.logging.log4j:log4j-core\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+  },
+  {
+    "name": "2338498e9ed24362f98e0527536837477b721fb5",
+    "author": "dependabot[bot]",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-18T18:38:14.000+00:00",
+    "message": "Bump log4j-core from 2.15.0 to 2.17.0 in /xml-service\n\nBumps log4j-core from 2.15.0 to 2.17.0.\n\n---\nupdated-dependencies:\n- dependency-name: org.apache.logging.log4j:log4j-core\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+  },
+  {
+    "name": "a56deb8bc2eeefa492375889e384a2541b681dbd",
+    "author": "dependabot[bot]",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-18T18:33:05.000+00:00",
+    "message": "Bump log4j-api from 2.15.0 to 2.17.0 in /github-service\n\nBumps log4j-api from 2.15.0 to 2.17.0.\n\n---\nupdated-dependencies:\n- dependency-name: org.apache.logging.log4j:log4j-api\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+  },
+  {
+    "name": "4f9feea0aca12b5a7b87dcb18142d950ff036d08",
+    "author": "dependabot[bot]",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-18T18:32:12.000+00:00",
+    "message": "Bump log4j-api from 2.15.0 to 2.17.0 in /xml-service\n\nBumps log4j-api from 2.15.0 to 2.17.0.\n\n---\nupdated-dependencies:\n- dependency-name: org.apache.logging.log4j:log4j-api\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+  },
+  {
+    "name": "be0cbdb6c1d27ce00108d5f3285079f534d7c4d4",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-12T04:42:50.000+00:00",
+    "message": "Merge pull request #26 from jcia-sqa/datdev\n\nMajor changes"
+  },
+  {
+    "name": "9802fafc777dbe60a81527749899b6c418d4cf12",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-12T04:39:10.000+00:00",
+    "message": "Merge pull request #22 from jcia-sqa/dependabot/maven/github-service/org.apache.logging.log4j-log4j-api-2.15.0\n\nBump log4j-api from 2.7 to 2.15.0 in /github-service"
+  },
+  {
+    "name": "fead645c3e04bd8491e54b7cd76095d6c1ba5ccb",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-12T04:38:45.000+00:00",
+    "message": "Merge pull request #23 from jcia-sqa/dependabot/maven/xml-service/org.apache.logging.log4j-log4j-api-2.15.0\n\nBump log4j-api from 2.7 to 2.15.0 in /xml-service"
+  },
+  {
+    "name": "08ce8cefc685515735a47902cbb5214168ecd1e5",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-12T04:38:23.000+00:00",
+    "message": "Merge pull request #24 from jcia-sqa/dependabot/maven/xml-service/org.apache.logging.log4j-log4j-core-2.15.0\n\nBump log4j-core from 2.13.2 to 2.15.0 in /xml-service"
+  },
+  {
+    "name": "752321b05bd764dd774dbd09babfdcdc33f5c2f4",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-11T14:38:41.000+00:00",
+    "message": "Merge pull request #25 from jcia-sqa/dependabot/maven/github-service/org.apache.logging.log4j-log4j-core-2.15.0\n\nBump log4j-core from 2.13.2 to 2.15.0 in /github-service"
+  },
+  {
+    "name": "e6fafba8cfb7cc56186258eafb7ec4b51c86f7f0",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-11T04:24:34.000+00:00",
+    "message": "refactor analyzing xml dependencies to multi-thread\n"
+  },
+  {
+    "name": "8bea3df14f3bf0b6a24a6afd08de5eebc14e7e2d",
+    "author": "dependabot[bot]",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-10T01:57:20.000+00:00",
+    "message": "Bump log4j-core from 2.13.2 to 2.15.0 in /github-service\n\nBumps log4j-core from 2.13.2 to 2.15.0.\n\n---\nupdated-dependencies:\n- dependency-name: org.apache.logging.log4j:log4j-core\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+  },
+  {
+    "name": "b2aab8022eabb451ba4106b7ffe2c4c75c970fa2",
+    "author": "dependabot[bot]",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-10T01:57:18.000+00:00",
+    "message": "Bump log4j-core from 2.13.2 to 2.15.0 in /xml-service\n\nBumps log4j-core from 2.13.2 to 2.15.0.\n\n---\nupdated-dependencies:\n- dependency-name: org.apache.logging.log4j:log4j-core\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+  },
+  {
+    "name": "8b30ad6ba0b8a8db142247a3ba85dcc995e0156f",
+    "author": "dependabot[bot]",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-10T01:49:21.000+00:00",
+    "message": "Bump log4j-api from 2.7 to 2.15.0 in /xml-service\n\nBumps log4j-api from 2.7 to 2.15.0.\n\n---\nupdated-dependencies:\n- dependency-name: org.apache.logging.log4j:log4j-api\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+  },
+  {
+    "name": "a5b5071b5053391f7783406185d22c1ca36c66de",
+    "author": "dependabot[bot]",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-10T01:49:20.000+00:00",
+    "message": "Bump log4j-api from 2.7 to 2.15.0 in /github-service\n\nBumps log4j-api from 2.7 to 2.15.0.\n\n---\nupdated-dependencies:\n- dependency-name: org.apache.logging.log4j:log4j-api\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+  },
+  {
+    "name": "0f1ad75e1f464f24679d38a00f882840fbd44bcf",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-09T10:53:20.000+00:00",
+    "message": "Merge pull request #21 from jcia-sqa/datdev\n\nBump Dependencies"
+  },
+  {
+    "name": "9b4826f55eeaca1eb843e051e364bccae7ccf5a2",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-08T14:06:56.000+00:00",
+    "message": "Merge branch 'Spring-dev' of github.com:jcia-sqa/JCIA-Microservices into datdev\n"
+  },
+  {
+    "name": "645aa85a8d445627475798dd7901992f10bd8576",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-08T14:04:41.000+00:00",
+    "message": "Merge pull request #20 from jcia-sqa/bump-dependency\n\nBump dependency"
+  },
+  {
+    "name": "884d444193726ca415081fa5bdf131435329c25d",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-08T13:40:22.000+00:00",
+    "message": "Merge pull request #18 from jcia-sqa/dependabot/maven/github-service/org.apache.logging.log4j-log4j-core-2.13.2\n\nBump log4j-core from 2.7 to 2.13.2 in /github-service"
+  },
+  {
+    "name": "9d7f80e09e65b8516cd9d5983457fbd47d544887",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-08T13:40:04.000+00:00",
+    "message": "Merge pull request #17 from jcia-sqa/dependabot/maven/xml-service/org.apache.logging.log4j-log4j-core-2.13.2\n\nBump log4j-core from 2.7 to 2.13.2 in /xml-service"
+  },
+  {
+    "name": "99b447ec707ef208c761876ff174068176dbfd3f",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-08T13:39:46.000+00:00",
+    "message": "Merge pull request #16 from jcia-sqa/dependabot/maven/xml-service/org.jsoup-jsoup-1.14.2\n\nBump jsoup from 1.11.2 to 1.14.2 in /xml-service"
+  },
+  {
+    "name": "b67a533da64c9e13667a73c7fdba225e7b9daa54",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-08T13:35:04.000+00:00",
+    "message": "Merge pull request #15 from jcia-sqa/datdev\n\nTôi năm nay hơn 70 tuổi mà chưa gặp trường hợp nào như thế này cả"
+  },
+  {
+    "name": "3d4f71cdedd410ab6d70c90ca11eef8266adcf22",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-07T09:44:52.000+00:00",
+    "message": "disable cors\n"
+  },
+  {
+    "name": "bd2302db3fd8a10f3cccd4a6b52706e8140e77f0",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-07T00:49:18.000+00:00",
+    "message": "update cors\n"
+  },
+  {
+    "name": "5bbd4eff0cd05c3d47ce14cf1bb26def4d5ac5d7",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-06T13:16:56.000+00:00",
+    "message": "open cors\n"
+  },
+  {
+    "name": "12a69f180589e3062df289a92e9ca33b4482c0ea",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-06T08:05:10.000+00:00",
+    "message": "Merge pull request #14 from jcia-sqa/datdev\n\nAdd api to delete user token"
+  },
+  {
+    "name": "f6ed474d8bc661df02ba773c594c285dc0dce30e",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-05T14:12:08.000+00:00",
+    "message": "add delete-token api\n"
+  },
+  {
+    "name": "5ae369384c9b7eb499a4fd18c5b541bf85d7ee90",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-04T08:08:16.000+00:00",
+    "message": "update work\n"
+  },
+  {
+    "name": "3b1642cf189254b5ef71a8c9f274830c0ad8bea5",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-03T08:45:13.000+00:00",
+    "message": "Merge pull request #13 from jcia-sqa/datdev\n\nDatdev"
+  },
+  {
+    "name": "049b5615ea038749ba5fb5f77afd097237753555",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-03T08:37:41.000+00:00",
+    "message": "update works\n"
+  },
+  {
+    "name": "1ccbd0c96c6af5ae79d1ce9c390a0aa1703ad048",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-02T11:40:49.000+00:00",
+    "message": "Merge branch 'Spring-dev' of github.com:jcia-sqa/JCIA-Microservices into datdev\n"
+  },
+  {
+    "name": "ab8686e4de0ca71e4203a9775ea4a0422d519dd7",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-02T11:11:07.000+00:00",
+    "message": "add function description\n"
+  },
+  {
+    "name": "f3b9d0af04ca507750ae6c8a6a8ff9fe9fd2eafe",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-02T10:35:41.000+00:00",
+    "message": "khi anh qua thung lũng\n"
+  },
+  {
+    "name": "2f98f8aeca582fb0bc30f8e12b3b108febd7bf52",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-02T10:35:09.000+00:00",
+    "message": "add analyzeDependencies from custom bean config to view\n"
+  },
+  {
+    "name": "088710fae13b0d7d7cd19fcfd77bfed25670dbbb",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-01T14:42:36.000+00:00",
+    "message": "Merge pull request #12 from jcia-sqa/datdev\n\nMlem"
+  },
+  {
+    "name": "c1e057609ad542f0b69bd943a345fe699bf39353",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-01T14:41:49.000+00:00",
+    "message": "add api for organization in github-service\n"
+  },
+  {
+    "name": "45ea79f4e27c71f2633d1b23fbb136c952044106",
+    "author": "dependabot[bot]",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-01T11:01:13.000+00:00",
+    "message": "Bump log4j-core from 2.7 to 2.13.2 in /github-service\n\nBumps log4j-core from 2.7 to 2.13.2.\n\n---\nupdated-dependencies:\n- dependency-name: org.apache.logging.log4j:log4j-core\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+  },
+  {
+    "name": "163a7914cd40879993d6d0605afa6c11275581f7",
+    "author": "dependabot[bot]",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-01T11:01:12.000+00:00",
+    "message": "Bump log4j-core from 2.7 to 2.13.2 in /xml-service\n\nBumps log4j-core from 2.7 to 2.13.2.\n\n---\nupdated-dependencies:\n- dependency-name: org.apache.logging.log4j:log4j-core\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+  },
+  {
+    "name": "93f000b6973e00f86ac740af19427d3d30c3af62",
+    "author": "dependabot[bot]",
+    "branch": "refs/heads/datdev",
+    "time": "2021-12-01T11:00:10.000+00:00",
+    "message": "Bump jsoup from 1.11.2 to 1.14.2 in /xml-service\n\nBumps [jsoup](https://github.com/jhy/jsoup) from 1.11.2 to 1.14.2.\n- [Release notes](https://github.com/jhy/jsoup/releases)\n- [Changelog](https://github.com/jhy/jsoup/blob/master/CHANGES)\n- [Commits](https://github.com/jhy/jsoup/compare/jsoup-1.11.2...jsoup-1.14.2)\n\n---\nupdated-dependencies:\n- dependency-name: org.jsoup:jsoup\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+  },
+  {
+    "name": "db0796e0d0f27cdf34367ca36db69d3005b55427",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-30T14:37:05.000+00:00",
+    "message": "fix duplicated node when sending multiple parse request in xml-service\n"
+  },
+  {
+    "name": "acb6707b01ae0bdc9b3be00184ac46bb688859ae",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-30T13:46:03.000+00:00",
+    "message": "refactor api in github service\n"
+  },
+  {
+    "name": "0358de79778376f227f973554503b656563128b5",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-30T12:04:50.000+00:00",
+    "message": "Fix compare\n"
+  },
+  {
+    "name": "c997e4bc4efd9c7c638ffb3352df132ba562c435",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-30T12:04:00.000+00:00",
+    "message": "Merge branch 'Spring-dev' of https://github.com/jcia-sqa/JCIA-Microservices into Spring-dev\n"
+  },
+  {
+    "name": "2bb0f3dc38b0d6d8cef4e843f150c615f64635bc",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-30T12:02:45.000+00:00",
+    "message": "Add new Annotation type\n"
+  },
+  {
+    "name": "dcc350bcde153b53822cf94c00cbecc144752d52",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-30T11:52:17.000+00:00",
+    "message": "Merge pull request #8 from jcia-sqa/datdev\n\nfix clone repo by branch"
+  },
+  {
+    "name": "8e25c8d7af2dfb68becd2666741f0d94ce223283",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-30T11:50:07.000+00:00",
+    "message": "fix clone repo by branch\n"
+  },
+  {
+    "name": "4fb6cbf7d41d68bc6d403adf33645b1979a460f4",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-30T11:36:51.000+00:00",
+    "message": "Merge pull request #7 from jcia-sqa/datdev\n\nusing regex to scan bean injection in xhtml"
+  },
+  {
+    "name": "708eb31bca5b22227524cf4e6238724d9b4b9037",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-30T11:36:18.000+00:00",
+    "message": "update api to clone 2 repo by branches and commits, refactor api in github service\n"
+  },
+  {
+    "name": "7741ef9850552defd712451d48f4ba2296db03c0",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-30T10:36:34.000+00:00",
+    "message": "using regex to scan bean injection in xhtml\n"
+  },
+  {
+    "name": "b6dc1e97d81883ce9ee54adeb949a62a3e9dc577",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-30T08:45:09.000+00:00",
+    "message": "Merge pull request #6 from jcia-sqa/datdev\n\nmlem mlem"
+  },
+  {
+    "name": "41009230b028fd8667f717c4e2f55d8f2de22eab",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-30T08:41:54.000+00:00",
+    "message": "Update README.adoc"
+  },
+  {
+    "name": "f0fbace6d460f6dfb933b43967f11a8942f4441d",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-30T08:39:38.000+00:00",
+    "message": "add dependencies from bean to view(xmlTagNode)\n"
+  },
+  {
+    "name": "5590d1cae00b232b2caf1cdd4a135a08ae7772b8",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-29T15:58:34.000+00:00",
+    "message": "disable message queue\n"
+  },
+  {
+    "name": "1fa63858d15ee43878b5279c269520d6e665f621",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-29T15:38:25.000+00:00",
+    "message": "recalculate xmlNode id when call api\n"
+  },
+  {
+    "name": "8e52d3f557d10aaf91e25db429a067d068ab62b4",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-29T14:44:01.000+00:00",
+    "message": "Merge pull request #5 from jcia-sqa/datdev\n\nUpdate work for github and xml"
+  },
+  {
+    "name": "5b7058db95b14df3875bedea2e95042df56ec5b0",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-29T14:42:54.000+00:00",
+    "message": "done clone repo by commit id\n"
+  },
+  {
+    "name": "91f13673b77165c5c38d42658b40e87030adb076",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-29T09:13:22.000+00:00",
+    "message": "add analyzeDependency between beans\n"
+  },
+  {
+    "name": "893887283e27fc7ac6be4501f75d653957f248e7",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-28T15:40:35.000+00:00",
+    "message": "update work\n"
+  },
+  {
+    "name": "5d23284ccd50847717b82ccece56c1c1b14d585a",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-28T13:14:58.000+00:00",
+    "message": "Merge branch 'Spring-dev' of github.com:jcia-sqa/JCIA-Microservices into datdev\n"
+  },
+  {
+    "name": "80c2c460e687e4fcd4c6af3c57acdc443bd39312",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-28T13:14:45.000+00:00",
+    "message": "update work\n"
+  },
+  {
+    "name": "f7ac1b90557f7e726962b4dd8c46aef725f0fa9d",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-28T11:23:01.000+00:00",
+    "message": "Merge branch 'Spring-dev' of https://github.com/jcia-sqa/JCIA-Microservices into Spring-dev\n"
+  },
+  {
+    "name": "4db9e1954244e2ce62d30fe1d13ef38e63fdd7c2",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-28T11:22:12.000+00:00",
+    "message": "Add new Annotation type\n"
+  },
+  {
+    "name": "024bed2911c09698b1516c5e1a3d7993c1f986ab",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-28T08:50:46.000+00:00",
+    "message": "update clone repo, cấm được xoá, xoá làm chó\n"
+  },
+  {
+    "name": "5c9131de49808e8c99d4068e01df9c76997a0d67",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-28T07:27:39.000+00:00",
+    "message": "Merge pull request #4 from jcia-sqa/datdev\n\nInitialize Github service"
+  },
+  {
+    "name": "f720b0c21ffe3c6997eafc89e39df1a3e2d60961",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-28T07:26:44.000+00:00",
+    "message": "update github service\n"
+  },
+  {
+    "name": "172ef7acfe54e10872e8492987c0448844a7b9cc",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-25T04:48:25.000+00:00",
+    "message": "update work\n"
+  },
+  {
+    "name": "51473aeb4d1cfe3d9b2cd41ca35b4cd8b450656d",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-23T14:58:30.000+00:00",
+    "message": "Merge pull request #3 from jcia-sqa/datdev\n\nAdd xml-service"
+  },
+  {
+    "name": "03ba02c468f725470ac2cfc12d6d2bbcee40a039",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-23T13:59:05.000+00:00",
+    "message": "Add deleted Node to Project tree\n"
+  },
+  {
+    "name": "a5e9872e86cf8dfb04fc2c718633ed7c5dbc84cf",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-22T15:07:25.000+00:00",
+    "message": "Add deleted Node to Project tree\n"
+  },
+  {
+    "name": "7682a530af153bbab8b575ada5792c7010010b38",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-22T15:02:21.000+00:00",
+    "message": "Add deleted Node to Project tree\n"
+  },
+  {
+    "name": "43398950eca54525f3663b26a3681cbd02ad4b17",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-22T14:10:14.000+00:00",
+    "message": "Add deleted Node to Project tree\n"
+  },
+  {
+    "name": "8b4e93a409463981703ef1ea200b5e172291dfdc",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-22T10:33:07.000+00:00",
+    "message": "Add deleted Node to Project tree\n"
+  },
+  {
+    "name": "8a4becc48d918e1ccc1f9150c39dc3d305c7cc2d",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-21T06:16:00.000+00:00",
+    "message": "Fix compare version bug\n"
+  },
+  {
+    "name": "47a9e5cc1ef6c94643ad4261dbfc2592cabe4327",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-18T14:41:51.000+00:00",
+    "message": "make rest api accept json body\n"
+  },
+  {
+    "name": "6205efbeea06a297d3e2e6f7d98cdc2d69ab5dab",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-18T13:17:10.000+00:00",
+    "message": "refactor code\n"
+  },
+  {
+    "name": "307eb6dd2760ee08299f0f4f6ab42b229630f494",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-18T13:06:11.000+00:00",
+    "message": "refactor code\n"
+  },
+  {
+    "name": "8f0f547c1a90cc25eafb49156fb324a5e0cf0abc",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-18T11:13:25.000+00:00",
+    "message": "add xml parser\n"
+  },
+  {
+    "name": "4648a493704542bfa77c91d41f8656f9f05a2afd",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-14T10:14:16.000+00:00",
+    "message": "optimize import\n"
+  },
+  {
+    "name": "bdeb8eea0da049875c957c524e551f8bcabeb8dc",
+    "author": "Thanh Dat",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-13T14:43:58.000+00:00",
+    "message": "Merge pull request #2 from jcia-sqa/dat-dev\n\nEnable hot swap for services"
+  },
+  {
+    "name": "7b614233089f9cf999ff669053748339a0225bca",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-13T14:15:37.000+00:00",
+    "message": "Merge branch 'Spring-dev' of https://github.com/jcia-sqa/JCIA-Microservices into dat-dev\n"
+  },
+  {
+    "name": "120e06a527fd31ababa2f7733911537a864a6848",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-13T14:14:34.000+00:00",
+    "message": "ignored files\n"
+  },
+  {
+    "name": "29e595c707991bdd0c0656f9d74ddbe826ac1fd7",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-13T14:13:25.000+00:00",
+    "message": "enable hot swapping for services\n"
+  },
+  {
+    "name": "10a8304bf8dddbb08d261f0ccbcdd24560478d32",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-11-09T02:16:40.000+00:00",
+    "message": "Fix compare version bug\n"
+  },
+  {
+    "name": "db83ff688f38ba1fda5ac39b9ef0b90fc9691e4e",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-10-28T01:54:57.000+00:00",
+    "message": "Add more options to rsave file as user\n"
+  },
+  {
+    "name": "3de094a70e7a1630edd4b98003892d651974cbfb",
+    "author": "thdtt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-10-22T09:45:15.000+00:00",
+    "message": "open cors for file service\n"
+  },
+  {
+    "name": "843df8063bf528e08b0d4d6fc127021d7cde1cf4",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-10-22T09:29:29.000+00:00",
+    "message": "Add more options to read file\n"
+  },
+  {
+    "name": "a5a4934e0e9603dc9672a74a1489c2241f87023e",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-10-22T04:01:37.000+00:00",
+    "message": "add File Service, add path to Java Class\n"
+  },
+  {
+    "name": "aa261f04ffd8afd6b928fe2599be845509d4a8e2",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-10-16T05:31:43.000+00:00",
+    "message": "Hide allNode and allDep Parser\n"
+  },
+  {
+    "name": "51513bb312188a43c819502a5a457417c10439a5",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-10-15T02:26:59.000+00:00",
+    "message": "Build tree for VerCompare\n"
+  },
+  {
+    "name": "3ba3b99ef8863174a9f8b308b8c89607aae2619f",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-10-14T03:50:18.000+00:00",
+    "message": "Change options for VerCompare\n"
+  },
+  {
+    "name": "a996fb3e314e1a912596ed3fc87077efef2482ea",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-10-13T08:21:57.000+00:00",
+    "message": "allDep to Parser\n"
+  },
+  {
+    "name": "6dc74f309eeb66de1f5cb0f076bf04c3bf662bef",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-10-13T04:57:30.000+00:00",
+    "message": "allNodes to Parser\n"
+  },
+  {
+    "name": "5968754f0ed85284419c2fcfc5f3386decfee190",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-10-12T11:09:39.000+00:00",
+    "message": "Add second choice to compare by File\n"
+  },
+  {
+    "name": "8f8f2be6b7a1b9eb14b67a3c5719cc30446b46f6",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-10-12T07:00:31.000+00:00",
+    "message": "Compare by File\n"
+  },
+  {
+    "name": "af2743637da1d77e9742fbfcc429eb1fcab46d56",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-10-12T03:45:02.000+00:00",
+    "message": "Add parser with file.\n"
+  },
+  {
+    "name": "30a0eb0e24feaaf9e272cfdeda154a4661e23682",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-10-07T03:35:22.000+00:00",
+    "message": "Add authenticator for user service\n"
+  },
+  {
+    "name": "d38e3c30d9555523d93af2df66779a05fb0a56e1",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-09-24T09:02:14.000+00:00",
+    "message": "JavaNode Refinement and Refactor.\n"
+  },
+  {
+    "name": "70720e96ed23820379a53c6c2d0ceb0fdf4af3f6",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-08-09T03:25:15.000+00:00",
+    "message": "App Version comparison\n"
+  },
+  {
+    "name": "1c77742e73887e1b427d28408a116539e55e670b",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-08-05T07:16:36.000+00:00",
+    "message": "Wrap Dep to rootNode\n"
+  },
+  {
+    "name": "a13798cf9bc1881bdb522ef06864ffd2f287ff16",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-08-05T02:18:10.000+00:00",
+    "message": "Add Dep\n"
+  },
+  {
+    "name": "af89c009650adc2659b7a577f490351e924b000e",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-08-04T08:00:44.000+00:00",
+    "message": "Add parent to TreeNode\n"
+  },
+  {
+    "name": "b5e76f5d6d8058b7e4c5fce85c9dcd5d8d4e3884",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-08-03T09:38:34.000+00:00",
+    "message": "Add compare verion service\n"
+  },
+  {
+    "name": "5c0666976464f66a9c1a5d7a9812a0989bceea73",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-29T03:04:48.000+00:00",
+    "message": "Add parent nodes\n"
+  },
+  {
+    "name": "f74d7b130b2468c9a012f0bb59e2c0a8d87b2d30",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-27T09:49:18.000+00:00",
+    "message": "Add CIA Service\n"
+  },
+  {
+    "name": "7e4d797ebdf905ecfa6933513bafaa95c62da189",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-27T03:50:00.000+00:00",
+    "message": "Add CIA Service\n"
+  },
+  {
+    "name": "5401478d4b174e18cd171077ecd4196727432c98",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-26T09:00:31.000+00:00",
+    "message": "Parser Service with file path\n"
+  },
+  {
+    "name": "18ed835b997f777d51edc6c6701a93bf86a4d07e",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-26T04:00:15.000+00:00",
+    "message": "Parser Service with file path\n"
+  },
+  {
+    "name": "a9a06d532a0f2b075476ceca68d86a17b9bbe05d",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-24T10:05:25.000+00:00",
+    "message": "Add dependency list\n"
+  },
+  {
+    "name": "417e2fe735ef9c8cdf3f1f9b383e5fca54aeb49b",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-24T09:35:32.000+00:00",
+    "message": "Add dependency list\n"
+  },
+  {
+    "name": "51d8bea4c88df03a81207b5871a2593b9812833b",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-22T04:25:36.000+00:00",
+    "message": "Add parser service connection\n"
+  },
+  {
+    "name": "4bed7dcf8598c50475b403d7f5f58c5c6846f759",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T09:20:53.000+00:00",
+    "message": "Add version comparison service\n"
+  },
+  {
+    "name": "066912a1d710f2ff17e74fefda9797bf3e0b766a",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T09:15:38.000+00:00",
+    "message": "update Readme\n"
+  },
+  {
+    "name": "b95929844e3271b243e49774ff3eaf27e3747765",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T09:14:46.000+00:00",
+    "message": "update Readme\n"
+  },
+  {
+    "name": "154247f0715d76e68f058dd11e0bb4c580df60b0",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T09:07:59.000+00:00",
+    "message": "Update README.adoc"
+  },
+  {
+    "name": "b3eca9b91e6e42675d38b8b6c312b23d24cdeb4e",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T09:07:22.000+00:00",
+    "message": "Update README.adoc"
+  },
+  {
+    "name": "88604d09bd63c70e22938dc19b0326365388db68",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T09:03:02.000+00:00",
+    "message": "Update README.adoc"
+  },
+  {
+    "name": "72c84f6dbbf408c7e429f92a9580966d3a08c52d",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T09:02:30.000+00:00",
+    "message": "Rename README.md to README.adoc"
+  },
+  {
+    "name": "77f6f353e0fc6b054cf120a7e8b7cbfd26cb3eae",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T09:01:36.000+00:00",
+    "message": "Update README.md"
+  },
+  {
+    "name": "64f07ce101782d734e04a4554d48b6745a7ce245",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T09:00:49.000+00:00",
+    "message": "Add Parser Service and Cleanup Port, new README\n"
+  },
+  {
+    "name": "be82f8a4efd6f2388af6027574c95c922649abb9",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T04:10:05.000+00:00",
+    "message": "Dependency for Spring\n"
+  },
+  {
+    "name": "25920c30b6fc58f6913eb122cb52dd500bc017d0",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T04:09:32.000+00:00",
+    "message": "Dependency for Spring\n"
+  },
+  {
+    "name": "6afa057313b0a9efb04b3242311cf48437918095",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T04:08:48.000+00:00",
+    "message": "Dependency for Spring\n"
+  },
+  {
+    "name": "db370888d187173cbface85b3acbe07572f27aab",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T04:08:01.000+00:00",
+    "message": "Dependency for Spring\n"
+  },
+  {
+    "name": "21488d6ebd64c3c73644a402889c36d18871897f",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T02:39:30.000+00:00",
+    "message": "Modifiers for Java\n"
+  },
+  {
+    "name": "fc79e014fcf835c32fa5bed17dbcd5f3741bb243",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T02:34:50.000+00:00",
+    "message": "Merge remote-tracking branch 'origin/Spring-dev' into Spring-dev\n"
+  },
+  {
+    "name": "d1b55f4f63e4733ec130e90763b861cb68ff5e76",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-20T02:26:40.000+00:00",
+    "message": "Modifiers for Java\n"
+  },
+  {
+    "name": "8db2bc0f823fcfb5d5c4e633c318a26a72a9ddaf",
+    "author": "=",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-19T11:33:55.000+00:00",
+    "message": "open cors for services\n"
+  },
+  {
+    "name": "a998fa891a559b945587f06c6a746b70ab14a527",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-19T08:45:30.000+00:00",
+    "message": "Add new API\n"
+  },
+  {
+    "name": "a85981f0ee5142af8af84c3370587ff3d3f54eab",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-19T04:05:16.000+00:00",
+    "message": "Parser service\n"
+  },
+  {
+    "name": "05f85a4ec36e9d6927539fe6cb48fe7f669bc632",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-19T03:10:50.000+00:00",
+    "message": "Refactor\n"
+  },
+  {
+    "name": "ce1bdc8d2ce932670a0e6a00072d5bbd8d40485e",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-19T03:10:19.000+00:00",
+    "message": "Refactor\n"
+  },
+  {
+    "name": "7cf6151af11d229850006fd5c42c8e521928a223",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-19T03:02:46.000+00:00",
+    "message": "Refactor\n"
+  },
+  {
+    "name": "d016d75421374492544d0863545646ec3f3c9acf",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-19T02:54:30.000+00:00",
+    "message": "Refactor\n"
+  },
+  {
+    "name": "ef165532e034766e41b7db1b62d511eac83c94ad",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-19T02:52:22.000+00:00",
+    "message": "Refactor\n"
+  },
+  {
+    "name": "07760cd41128d5e8c417ed0f6d13ec45e408db9b",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-19T02:50:28.000+00:00",
+    "message": "Refactor\n"
+  },
+  {
+    "name": "dbe4ad4b2461709e132a203d7047716106a0da65",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-19T02:41:05.000+00:00",
+    "message": "Refactor\n"
+  },
+  {
+    "name": "c625168b9d5dd4da989bd11c9569d7c3dc21805c",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-19T02:38:59.000+00:00",
+    "message": "Refactor\n"
+  },
+  {
+    "name": "14aaa4b1ba4127405e1dce510e269571bdca4892",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-19T02:31:56.000+00:00",
+    "message": "Refactor\n"
+  },
+  {
+    "name": "ae778da60e9992c523772fb7efd24698471de06d",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-19T02:20:33.000+00:00",
+    "message": "Refactor\n"
+  },
+  {
+    "name": "d18349d40a31438a10bf4560d1911bab260d0709",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-14T09:22:29.000+00:00",
+    "message": "Refactor Java Node\n"
+  },
+  {
+    "name": "de28f8ade8f9605b15254a165ecf3e70fae8fb96",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-14T03:25:34.000+00:00",
+    "message": "Add spring Dependency\n"
+  },
+  {
+    "name": "ad9ccf782b70a2fff6e31733162006a44c1aa530",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-13T08:40:50.000+00:00",
+    "message": "Refactor dependency\n"
+  },
+  {
+    "name": "ae6b4a346cc85bf1a59dd99a1504ab3cb1bfc8a4",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-06T07:55:19.000+00:00",
+    "message": "Refactor java service\n"
+  },
+  {
+    "name": "28fc6dd19f7bdca646dd86cef126894a52d4f885",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-06T07:48:54.000+00:00",
+    "message": "Refactor java service, adding spring service\n"
+  },
+  {
+    "name": "9a8885c675e1752c52cb5c477e1031dd0111d15a",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-06T02:36:14.000+00:00",
+    "message": "Merge branch 'Spring-dev' of https://github.com/jcia-sqa/JCIA-Microservices into Spring-dev\n"
+  },
+  {
+    "name": "02fcc0a842cc706412baf6d80ce749e87b0f7b23",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-06T02:36:00.000+00:00",
+    "message": "Refactor java service\n"
+  },
+  {
+    "name": "059b9fd534258b16400ca83e0fd53a8e16ea18ff",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-05T09:39:52.000+00:00",
+    "message": "Add spring service\n"
+  },
+  {
+    "name": "89b2065d55b91f4781117386c7ba48cb877f4db9",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-07-05T08:05:00.000+00:00",
+    "message": "Adding spring service\n"
+  },
+  {
+    "name": "5b0f11cef77d0601992c2d855e9f883cb14618cf",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-30T10:12:06.000+00:00",
+    "message": "Adding parse zip file in utility service\n"
+  },
+  {
+    "name": "e960cae6b72230707e5e6bd50dbe6f1ddb97fa99",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-30T10:11:26.000+00:00",
+    "message": "Adding parse zip file in utility service\n"
+  },
+  {
+    "name": "efe6ca160ed4fe7ec5e2237f8b559ec7c0e29f76",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-28T14:44:20.000+00:00",
+    "message": "Add spring service\n"
+  },
+  {
+    "name": "2f2a9b9db1d412d33c1277dddd5b211fdfcf9f4e",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-28T14:40:04.000+00:00",
+    "message": "Add spring service\n"
+  },
+  {
+    "name": "6f80dc21a8e5a52f5d0ee7e711bb3ac88bbbc72c",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-28T10:22:26.000+00:00",
+    "message": "Adding parse zip file\n"
+  },
+  {
+    "name": "c389230f72e0a992f76c5e6e041e426c77e16484",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-28T08:56:57.000+00:00",
+    "message": "refactor upload service\n"
+  },
+  {
+    "name": "b23f5bb55798c1ca88755e602eecc6acfdc17130",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-28T07:18:44.000+00:00",
+    "message": "refactor user service to user service and project service\n"
+  },
+  {
+    "name": "cec3b821a402c0fda7d85896dd380cbce8bd0ea3",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-25T09:34:07.000+00:00",
+    "message": "refactor user service to user service and project service\n"
+  },
+  {
+    "name": "3a59cbd12162b13fdcb4fac71276a295076ea759",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-25T06:34:44.000+00:00",
+    "message": "refactor user service to user service and project service\n"
+  },
+  {
+    "name": "4941c5b86ad63ae53e082d4645b9291c00e2b66a",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-24T04:36:19.000+00:00",
+    "message": "refactor user service to user service and project service\n"
+  },
+  {
+    "name": "916d5343b92a0cb62af81c7f0a6d047ddffa2b72",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-24T03:58:01.000+00:00",
+    "message": "add java service\n"
+  },
+  {
+    "name": "068de940641f4e3f6f1fe49651aa10bdf0e87bf7",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-23T16:11:53.000+00:00",
+    "message": "add java service\n"
+  },
+  {
+    "name": "235a3f8e3e9320a9d8b3a01171caa70e2ba2f7b8",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-22T03:14:37.000+00:00",
+    "message": "add user service\n"
+  },
+  {
+    "name": "50b3256d552c852e82917dbcd52582d645d4ed35",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-22T03:06:42.000+00:00",
+    "message": "add user service\n"
+  },
+  {
+    "name": "dd390afad61d6d2018a53f0be3eec5b8c9569d2f",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-21T09:46:49.000+00:00",
+    "message": "add java service\n"
+  },
+  {
+    "name": "0efe770cb9ef24e877b4964c1dd66219b3c21b1a",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-21T08:16:33.000+00:00",
+    "message": "add java service\n"
+  },
+  {
+    "name": "efa1e1c5b860299c8519546e4ced96089a0a4468",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-21T07:43:29.000+00:00",
+    "message": "add java service\n"
+  },
+  {
+    "name": "8bef103971e8f3e1e902362107e49dbc53f22578",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-19T15:11:34.000+00:00",
+    "message": "add utility service\n"
+  },
+  {
+    "name": "97fa5734cc4903e53663c6372861bf1b63acdf7c",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-19T12:58:11.000+00:00",
+    "message": "add utility service\n"
+  },
+  {
+    "name": "77c58b5b321196bd16ce280ee5af594bfb0acac2",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-19T11:23:44.000+00:00",
+    "message": "add git ignore\n"
+  },
+  {
+    "name": "8efa9d677e643a762577fdbc4a50e883aa7ee20f",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-19T11:20:53.000+00:00",
+    "message": "add git ignore\n"
+  },
+  {
+    "name": "78466391077e2d7788aa12508d8081246ce5d3b6",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-19T11:19:55.000+00:00",
+    "message": "add git ignore\n"
+  },
+  {
+    "name": "c8a143fbc8b1c05df6371b81ca999124f496726b",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-19T10:57:32.000+00:00",
+    "message": "add utility-service\n"
+  },
+  {
+    "name": "3c7c6c1bf3544214954bc5719a8771bd1ff09198",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-19T10:54:36.000+00:00",
+    "message": "add discovery-service\n"
+  },
+  {
+    "name": "235c42251f6446cd055df6a78c76cbb4a7b27d87",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-19T10:50:17.000+00:00",
+    "message": "add discovery-service\n"
+  },
+  {
+    "name": "3c07b04b25196d1669b332ec6be8f616d8cc82f7",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-06-19T10:44:08.000+00:00",
+    "message": "delete all\n"
+  },
+  {
+    "name": "becdd203cb6c663997c37da0dfe466c2d56c2228",
+    "author": "Thành Đạt",
+    "branch": "refs/heads/datdev",
+    "time": "2021-04-23T13:30:36.000+00:00",
+    "message": "Merge pull request #1 from jcia-sqa/develop\n\ninitial upload file service"
+  },
+  {
+    "name": "31b96ba1c759f38c318b7f37f16e1bf509b0792c",
+    "author": "=",
+    "branch": "refs/heads/datdev",
+    "time": "2021-04-18T15:33:28.000+00:00",
+    "message": "initial upload file service\n"
+  },
+  {
+    "name": "e299b787d5c24bdfdc9be197447e4c0aad70a539",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-04-13T14:21:36.000+00:00",
+    "message": "initial commit\n"
+  },
+  {
+    "name": "3febab2ef75df7a3cb3fc80a2d8567a5a94caed9",
+    "author": "Aleister",
+    "branch": "refs/heads/datdev",
+    "time": "2021-04-13T11:49:01.000+00:00",
+    "message": "initial commit\n"
+  },
+  {
+    "name": "f7da40db5f3079ea3aa62cbaa786c6a2b3b4d533",
+    "author": "Aleister",
+    "branch": "refs/heads/datdev",
+    "time": "2021-04-13T11:46:26.000+00:00",
+    "message": "initial commit\n"
+  },
+  {
+    "name": "ab266c22264a7a17af49baf96add580f85052784",
+    "author": "Trần Trung Thành",
+    "branch": "refs/heads/datdev",
+    "time": "2021-04-13T10:33:37.000+00:00",
+    "message": "Initial commit\n"
+  }
+]
