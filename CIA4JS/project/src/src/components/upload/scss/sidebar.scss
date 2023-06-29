@@ -1,0 +1,56 @@
+@import "color";
+
+.single-upload-wrapper, .testing-wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+#sidebar {
+  min-width: 430px;
+  max-width: 430px;
+  background: #4A5461;
+  color: #fff;
+  transition: all 0.3s;
+
+  .sidebar-header {
+    padding: 20px;
+    background:$dark-grey;
+    height: 80px;
+  }
+
+  #sidebar-content {
+    height: calc(100% - 80px);
+
+    #git-form {
+      height:10%;
+    }
+
+    .version-compare-check {
+      height: 5%;
+      text-align: left;
+      width: 100%;
+
+      .input {
+        box-shadow: none;
+        width: 10%;
+      }
+      label {
+        width: 90%;
+      }
+    }
+
+    #sideBarProjectInfo {
+      padding-top: 15px;
+      height: 72%;
+    }
+
+    .submit-sidebar {
+      height: 10%;
+    }
+  }
+}
+
+#sidebar.active {
+  margin-left: -430px;
+}

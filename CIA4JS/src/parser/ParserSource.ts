@@ -121,13 +121,18 @@ function getNodeFromReference(node: Node, refNode: ReferenceNode): Node | undefi
 function getNodebyImportNode(node: Node, refNode: ImportNode): Node | undefined {
     for (let childNode of node.getChildren()) {
         let filePath = childNode.getPath();
-        //console.log(filePath);
-        
+
         if (childNode instanceof DefaultNode && refNode.refSourceFile.startsWith(filePath)) {
             return getNodebyImportNode(childNode, refNode);
         }
+        
+        if (childNode instanceof SourceCodeNode && !(childNode instanceof ImportNode) && refNode.refName == childNode.getName()) { 
+            return childNode;
+        }
+    }
 
-        if (childNode instanceof SourceCodeNode && refNode.refName == childNode.getName()) {
+    for (let childNode of node.getChildren()) {
+        if (childNode instanceof SourceCodeNode && childNode instanceof ImportNode && refNode.refName == childNode.alias) {
             return childNode;
         }
     }

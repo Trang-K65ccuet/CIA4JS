@@ -55,6 +55,7 @@ export class SourceCodeNode extends Node {
     }
 
     override toString() {
-        return `${this.idNumber} -- ${this.id} -- ${this.type} -- ${this.pos.toString()}`;
+        return `${this.idNumber} -- ${this.type} -- ${this.pos.toString()}`;
+        // return `${this.idNumber} -- ${this.id} -- ${this.type} -- ${this.pos.toString()}`;
     }
 }

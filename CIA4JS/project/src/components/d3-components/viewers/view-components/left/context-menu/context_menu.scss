@@ -1,0 +1,139 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Poppins", sans-serif;
+}
+#contextmenu {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	background: #fdfdfd;
+	width: 150px;
+	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
+	transform: scale(0);
+	transform-origin: top left;
+	z-index: 999;
+}
+#contextmenu.active {
+	transform: scale(1);
+	//   transition:transform 250ms ease-in-out;
+}
+#contextmenu .list {
+	border-bottom: 1px solid #eee;
+}
+#contextmenu .list .open-in-graph {
+	position: relative;
+	padding: 10px;
+	font-size: 12px;
+	color: #555;
+	cursor: pointer;
+}
+#contextmenu .list .open-in-graph i {
+	display: inline-block;
+	width: 20px;
+	margin-right: 5px;
+}
+#contextmenu .list .open-in-graph:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0%;
+	height: 100%;
+	background: #eee;
+	z-index: -1;
+	//   transition:all 150ms ease-in-out;
+}
+#contextmenu .list .open-in-graph:hover:before {
+	width: 100%;
+}
+// Collapse all nodes css
+#contextmenu .list .collapse-folder {
+	position: relative;
+	padding: 10px;
+	font-size: 12px;
+	color: #555;
+	cursor: pointer;
+}
+#contextmenu .list .collapse-folder i {
+	display: inline-block;
+	width: 20px;
+	margin-right: 5px;
+}
+#contextmenu .list .collapse-folder:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0%;
+	height: 100%;
+	background: #eee;
+	z-index: -1;
+	//   transition:all 150ms ease-in-out;
+}
+#contextmenu .list .collapse-folder:hover:before {
+	width: 100%;
+}
+
+// Expand all nodes css
+#contextmenu .list .expand-folder {
+	position: relative;
+	padding: 10px;
+	font-size: 12px;
+	color: #555;
+	cursor: pointer;
+}
+#contextmenu .list .expand-folder i {
+	display: inline-block;
+	width: 20px;
+	margin-right: 5px;
+}
+#contextmenu .list .expand-folder:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0%;
+	height: 100%;
+	background: #eee;
+	z-index: -1;
+	//   transition:all 150ms ease-in-out;
+}
+#contextmenu .list .expand-folder:hover:before {
+	width: 100%;
+}
+
+// Expand all nodes css
+#contextmenu .list .view-source {
+	position: relative;
+	padding: 10px;
+	font-size: 12px;
+	color: #555;
+	cursor: pointer;
+}
+#contextmenu .list .view-source i {
+	display: inline-block;
+	width: 20px;
+	margin-right: 5px;
+}
+#contextmenu .list .view-source:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0%;
+	height: 100%;
+	background: #eee;
+	z-index: -1;
+	//   transition:all 150ms ease-in-out;
+}
+#contextmenu .list .view-source:hover:before {
+	width: 100%;
+}

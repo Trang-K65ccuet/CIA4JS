@@ -29,21 +29,6 @@ const storage = diskStorage({
 
 const upload = multer({ storage });
 
-app.get('/', async (_req: Request, res: Response) => {
-  try {
-    //const p = new ParserTypeScript(PROJECT_PATH);
-    return res.send('aaa')
-  } catch (error) {
-    console.error(error);
-    res.status(500).send('Internal Server Error');
-  }
-});
-
-// ROUTES
-app.get('/upload', (_req: Request, res: Response) => {
-  res.sendFile(path.join(__dirname, 'index.html').replace(/\\/g, '/'));
-});
-
 app.post('/api/javascript-service/parse/file', upload.single('file'), async (req: Request, res: Response) => {
   const file = req.file;
   if (!file) {
@@ -75,7 +60,7 @@ app.post('/api/javascript-service/parse/file', upload.single('file'), async (req
     return res.status(500).send('Error occurred during file extraction');
   })
   .on('close', async () => {
-    fs.unlinkSync(filePath);
+    //fs.unlinkSync(filePath);
     console.log(writeStream)
     var a = new ParserJavascript(writeStream);
     const result = await a.parser();

@@ -1,0 +1,35 @@
+@import "../animation/animation";
+@import "../border/border";
+
+@mixin selectMenu-modal {
+  width: 300px;
+  height: auto;
+  margin: 8px 0 16px 0;
+  max-height: 480px;
+  border-radius: 6px;
+  background-color: #2D333B;
+  border: 1px solid #444C56;
+  box-shadow: 0 8px 24px #1c2128;
+  font-size: 12px;
+  animation: .12s cubic-bezier(0, 0.1, 0.1, 1) backwards;
+  @include SelectMenu-modal-animation;
+}
+
+@mixin selectMenu-header {
+  padding: 7px 7px 7px 16px;
+  border-bottom: 1px solid #373E47;
+}
+
+@mixin selectMenu-options {
+  position: relative;
+  padding: 0;
+  margin: 0 0 -1px;
+  flex: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@mixin selectMenu-item {
+  padding: 7px 7px;
+  border-bottom: 1px solid #373E47;
+}

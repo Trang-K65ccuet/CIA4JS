@@ -13,7 +13,7 @@ export class ImportNode extends SourceCodeNode {
         this.refSourceFile = refSourceFile;
         this.alias = alias;
     }
-
+    
     override toString() {    
         return `${this.name} -- ${this.type} -- ${this.refName} -- ${this.alias} -- ${this.refSourceFile}`;    
     }

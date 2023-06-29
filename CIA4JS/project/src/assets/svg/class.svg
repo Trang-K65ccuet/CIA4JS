@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="330.08124"
+   height="344.19241"
+   id="svg2861"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="javaClass.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs2863">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 32 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="64 : 32 : 1"
+       inkscape:persp3d-origin="32 : 21.333333 : 1"
+       id="perspective2869" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="-8.216581"
+     inkscape:cy="123.83555"
+     inkscape:current-layer="g5609"
+     showgrid="true"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
+     inkscape:snap-global="false"
+     inkscape:snap-bbox="true"
+     inkscape:object-paths="false"
+     inkscape:object-nodes="false"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:snap-nodes="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="784"
+     inkscape:window-x="0"
+     inkscape:window-y="28">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2891"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(-1.0706219e-5,280.19243)">
+    <g
+       id="g5609"
+       transform="matrix(1.3776179,0,0,1.3753668,-362.31352,-804.67409)">
+      <g
+         id="g4487">
+        <path
+           transform="matrix(5.3763609,0,0,5.3763609,-661.73406,-2540.9664)"
+           d="M 216,568.09448 A 22,22 0 1 1 172,568.09448 A 22,22 0 1 1 216,568.09448 z"
+           sodipodi:ry="22"
+           sodipodi:rx="22"
+           sodipodi:cy="568.09448"
+           sodipodi:cx="194"
+           id="path5597"
+           style="font-size:24px;fill:#fff;fill-opacity:1;stroke:none;stroke-width:0.36000000999999998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           sodipodi:type="arc" />
+        <text
+           transform="scale(0.9991826,1.000818)"
+           id="text3963"
+           y="597.65985"
+           x="367.8288"
+           style="font-size:17.43562889000000027px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             style="font-size:233.99993896000000859px;font-weight:bold;fill:#37474F"
+             y="597.65985"
+             x="367.8288"
+             id="tspan3965"
+             sodipodi:role="line">C</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

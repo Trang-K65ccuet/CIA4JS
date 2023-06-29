@@ -17,7 +17,8 @@ export class CallNode extends SourceCodeNode {
     }
 
     override toString() {    
-        return `${this.name} -- ${this.type} -- ${this.refName} -- ${this.refSourceFile}
-                -- ${this.refPos.toString()} -- ${this.refType}`;    
+        return `${this.name} -- ${this.type} -- ${this.refName}`;    
+        // return `${this.name} -- ${this.type} -- ${this.refName} -- ${this.refSourceFile}
+        //         -- ${this.refPos.toString()} -- ${this.refType}`;  
     }
 }

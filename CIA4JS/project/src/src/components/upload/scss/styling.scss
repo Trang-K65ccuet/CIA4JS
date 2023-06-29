@@ -1,0 +1,17 @@
+@import "color";
+
+.normal-box-shadow {
+  box-shadow: inset 0 -2px 0 $light-grey;
+}
+
+.normal-box-shadow:hover{
+  box-shadow: inset 0 -2px 0 $corn-blue;
+}
+
+.selected-box-shadow {
+  box-shadow: inset 0 -3px 0 $orange !important;
+}
+
+.selected-box-shadow-white {
+  box-shadow: inset 0 -3px 0 #fff !important;
+}

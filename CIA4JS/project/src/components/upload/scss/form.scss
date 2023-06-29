@@ -1,0 +1,44 @@
+@import "color";
+
+.form-container {
+  display: flex!important;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  .submit-btn {
+    background-color: $green;
+    cursor: pointer;
+    font-weight: bold;
+    color: ghostwhite;
+    padding: 8px 16px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .git-field {
+    margin-right:  20px;
+
+    .input-label {
+      overflow: hidden;
+      color: ghostwhite;
+      padding: 8px 16px;
+      font-size: 16px;
+      line-height: 20px;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+      background-color: $dark-grey;
+      white-space: nowrap;
+    }
+
+    .input-form-control {
+      width: 60%;
+      padding: 5px 12px;
+      font-size: 14px;
+      line-height: 20px;
+      vertical-align: middle;
+      border: 1px solid $dark-grey;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+  }
+}

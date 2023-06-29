@@ -194,85 +194,74 @@ export class ParserJavascript {
    */
   private detectIX(nodeAST: ts.Node, typeChecker: ts.TypeChecker, parentNode: Node) {
     ts.forEachChild(nodeAST, (node) => {
-      if (ts.isExportDeclaration(node)) {
+      if (ts.isExportDeclaration(node)) {  
+        let fileName  = "";
+        let exportName = "";
+        let alias = "";
         if (node.moduleSpecifier && ts.isStringLiteral(node.moduleSpecifier)) {
+          //console.log(node.moduleSpecifier.text);
           let relativePath = "";
           let absolutePath = path.dirname(nodeAST.getSourceFile().fileName.toString());
+          //console.log(absolutePath);
           if (node.moduleSpecifier.text.endsWith(".ts")) {
             relativePath = node.moduleSpecifier.text;
           } else {
             relativePath = node.moduleSpecifier.text + ".ts";
           }
-          let fileName = path.normalize(path.resolve(absolutePath, relativePath)).replace(/\\/g, '/')
-
-          let nodeExport = this.tracer(fileName, this.root);
-
-          if (node.exportClause && ts.isNamedExports(node.exportClause)) {
-            node.exportClause.elements.forEach(specifier => {
-              if (nodeExport?.getType() === NodeType.File) {
-                let rexportName = "";
-                // check rexport is refName or alias
-                if (specifier.propertyName) {
-                  rexportName = specifier.propertyName.text;
-                } else {
-                  rexportName = specifier.name.text;
-                }
-
-                if (rexportName) {
-                  for (let child of nodeExport.getChildren()) {
-                    if (child.getName() == rexportName) {
-                      cr.createImportNode(nodeAST, parentNode, this.dep_graph, typeChecker, fileName, rexportName, specifier.name.text, getPosition(specifier));
-                    }
-                  }
-                }
-              }
-            })
-          } else if (node.exportClause) {
-            // maybe no need
-            let rexportName = node.exportClause.name.getText();
-
-            if (nodeExport?.getType() === NodeType.File && rexportName) {
-              cr.createImportNode(nodeAST, parentNode, this.dep_graph, typeChecker, fileName, rexportName, rexportName, getPosition(node.exportClause.name));
-            }
-          }
+          fileName = path.normalize(path.resolve(absolutePath, relativePath)).replace(/\\/g, '/')
+        } else {
+          fileName = node.getSourceFile().fileName
         }
-      } else if (ts.isImportDeclaration(node)) {        
-        if (node.importClause && ts.isStringLiteral(node.moduleSpecifier)) {
-          let relativePath = "";
-          let absolutePath = path.dirname(nodeAST.getSourceFile().fileName.toString())
-          if(node.moduleSpecifier.text.endsWith(".ts")) {
-            relativePath = node.moduleSpecifier.text;
-          } else {
-            relativePath = node.moduleSpecifier.text + ".ts";
-          }
-
-          let fileName = path.normalize(path.resolve(absolutePath, relativePath)).replace(/\\/g, '/')
-
-          let nodeImport = this.tracer(fileName, this.root)
-
-          if (node.importClause && node.importClause.namedBindings && ts.isNamedImports(node.importClause.namedBindings)) {
-            
-            node.importClause.namedBindings.elements.forEach(specifier => {
-              if (nodeImport?.getType() === NodeType.File) {
-                let importedSymbol = specifier.propertyName ? specifier.propertyName.text : specifier.name.text;
-                let alias = specifier.name.text;
-                if (importedSymbol) {
-                  for (let child of nodeImport.getChildren()) {
-                    if (child.getName() == importedSymbol) {
-                      cr.createImportNode(nodeAST, parentNode, this.dep_graph, typeChecker, fileName, importedSymbol, alias, getPosition(specifier));
-                    }
-                  }
-                }
-              }
-            })
-          } else if (node.importClause) {
-            if (node.importClause.name && nodeImport?.getType() === NodeType.File) {
-              cr.createImportNode(nodeAST, parentNode, this.dep_graph, typeChecker, fileName, 
-                node.importClause.name.escapedText.toString(), node.importClause.name.escapedText.toString(), getPosition(node.importClause.name));
-            } else if (node.importClause.namedBindings && ts.isNamespaceImport(node.importClause.namedBindings) && nodeImport?.getType() === NodeType.File) {
-              cr.createImportNode(nodeAST, parentNode, this.dep_graph, typeChecker, fileName, 
-                node.importClause.namedBindings.name.getText(), node.importClause.namedBindings.name.getText(), getPosition(node.importClause.namedBindings));
+        if (node.exportClause && ts.isNamedExports(node.exportClause)) {
+          node.exportClause.elements.forEach(exportSpecifier => {
+            if (exportSpecifier.propertyName) {
+              exportName = exportSpecifier.propertyName.escapedText.toString()
+            } else {
+              exportName = exportSpecifier.name.escapedText.toString();
             }
+            alias = exportSpecifier.name.escapedText.toString();
+            
+            cr.createImportNode(nodeAST, parentNode, this.dep_graph, typeChecker, fileName, exportName, alias, getPosition(exportSpecifier))
+          })    
+        } ts.isNamespaceExport
+
+      } else if (ts.isExportAssignment(node)) {
+        // export default exportedElement;
+        let fileName = node.getSourceFile().fileName
+        let exportName = node.expression.getText().toString()
+        let alias = "default"
+
+        cr.createImportNode(nodeAST, parentNode, this.dep_graph, typeChecker, fileName, exportName, alias, getPosition(node))
+      } else if (ts.isImportDeclaration(node) && ts.isStringLiteral(node.moduleSpecifier)) {
+        // console.log(node.getSourceFile());
+        let relativePath = "";
+        let absolutePath = path.dirname(nodeAST.getSourceFile().fileName.toString())
+        if(node.moduleSpecifier.text.endsWith(".ts")) {
+          relativePath = node.moduleSpecifier.text;
+        } else {
+          relativePath = node.moduleSpecifier.text + ".ts";
+        }
+
+        let fileName = path.normalize(path.resolve(absolutePath, relativePath)).replace(/\\/g, '/')
+        let nodeImport = this.tracer(fileName, this.root)
+        let importName = "";
+        let alias = "";
+        if (node.importClause) {      
+          let importClause = node.importClause;
+          if (importClause.namedBindings) {
+            if (ts.isNamedImports(importClause.namedBindings)) {
+              // import { exportName1 } from 'module';
+              // import { exportName as aliasName } from 'module';
+              importClause.namedBindings.elements.forEach(importSpecifier => {
+                alias = importSpecifier.propertyName ? importSpecifier.propertyName.text : importSpecifier.name.text
+                importName = importSpecifier.name.text
+                cr.createImportNode(nodeAST, parentNode, this.dep_graph, typeChecker, fileName, importName, alias, getPosition(importSpecifier))
+              })
+            } else if (ts.isNamespaceImport(importClause.namedBindings)) {
+              // import * as moduleAlias from 'module';
+            }
+          } else {
+            // import moduleName from 'module';
           }
         }
       }

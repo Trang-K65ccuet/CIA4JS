@@ -1,0 +1,439 @@
+@import "./assets/central-view.scss";
+@import "./assets/left-view.scss";
+@import "./assets/right-view.scss";
+@import "./assets/annotation.scss";
+@import "../../../assets/scss/variable/color";
+@import "./view-components/left/context-menu/context_menu.scss";
+@import "assets/font";
+.hidden {
+	display: none;
+}
+
+.node {
+	cursor: pointer;
+	color: blue;
+}
+
+.node :hover {
+	color: blue;
+}
+
+.view {
+	font-family: $montserrat;
+	/*border: 1px #777777 solid;*/
+	padding: 0px 0px 0px 0px !important;
+	margin: 0px 0px 0px 0px !important;
+
+	div {
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
+	}
+}
+
+.project-view .main-view,
+.project-search-view .main-view {
+	overflow: auto;
+}
+
+.project-view {
+	position: static !important;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.project-search-view {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	input {
+		flex: 1;
+		padding: 3px 5px;
+		margin-top: 3px;
+		margin-left: 3px;
+		margin-right: 4px;
+		height: 25px;
+		border: 1px solid black;
+		border-radius: 5px;
+		min-width: 20px;
+	}
+
+	.remove-result {
+		height: 25px;
+		border: 1px solid black;
+		width: 25px;
+		margin-top: 3px;
+		background-color: #fb5252;
+		border-radius: 5px;
+		color: #ffffff;
+	}
+
+	.remove-result:active {
+		transform: scale(0.95);
+		/* Scaling button to 0.98 to its original size */
+		box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+		/* Lowering the shadow */
+	}
+}
+
+.left-view {
+	background-color: #37474f;
+}
+
+/*----------------------------------------------------------------*/
+
+/*---------------------------------------*/
+/* The list style
+  -------------------------------------------------------------- */
+
+.project-view ul {
+	margin-left: 0px;
+	padding-left: 20px;
+	border-left: 0px dashed #ddd;
+	padding-top: 2px;
+}
+
+.project-view li {
+	list-style: none;
+	color: #eee;
+	font-size: 13px;
+	// font-style: italic;
+	font-weight: lighter;
+}
+
+.project-view a {
+	border-bottom: 1px solid transparent;
+	color: #eeeeee;
+	text-decoration: none;
+	transition: all 0.2s linear;
+}
+
+.project-view a:hover {
+	border-color: #eee;
+	color: #000;
+}
+
+.project-view .root-node,
+.project-view .root-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+.project-view .package-node,
+.project-view .package-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+
+.project-view .cs-folder-node,
+.project-view .cs-folder-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+
+.project-view .cs-file-node,
+.project-view .cs-file-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+
+.project-view .class-node,
+.project-view .class-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+
+.project-view .struct-node,
+.project-view .struct-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+
+.project-view .method-node,
+.project-view .method-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+
+.project-view .property-node,
+.project-view .property-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+
+.project-view .field-node,
+.project-view .field-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+.project-view .interface-node,
+.project-view .interface-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+.project-view .enum-node,
+.project-view .enum-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+.project-view .event-node,
+.project-view .event-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+.project-view .delegate-node,
+.project-view .delegate-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+.project-view .cs-local-function-node,
+.project-view .cs-local-function-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+.project-view .initialize-node,
+.project-view .initialize-node > a {
+	color: #eee;
+	font-weight: lighter;
+}
+
+/* The icons
+  -------------------------------------------------------------- */
+
+.project-view li:before {
+	margin-right: 2px;
+	content: "";
+	height: 20px;
+	vertical-align: middle;
+	width: 20px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	/* file icon by default */
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path fill='lightgrey' d='M85.714,42.857V87.5c0,1.487-0.521,2.752-1.562,3.794c-1.042,1.041-2.308,1.562-3.795,1.562H19.643 c-1.488,0-2.753-0.521-3.794-1.562c-1.042-1.042-1.562-2.307-1.562-3.794v-75c0-1.487,0.521-2.752,1.562-3.794 c1.041-1.041,2.306-1.562,3.794-1.562H50V37.5c0,1.488,0.521,2.753,1.562,3.795s2.307,1.562,3.795,1.562H85.714z M85.546,35.714 H57.143V7.311c3.05,0.558,5.505,1.767,7.366,3.627l17.41,17.411C83.78,30.209,84.989,32.665,85.546,35.714z' /></svg>");
+	background-position: center 2px;
+	background-size: 70% auto;
+}
+
+.project-view li.root-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/sourceRoot.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.package-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/package.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.cs-folder-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/sourceRoot.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.cs-file-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/cs-file.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.class-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/class.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.struct-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/structure.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.method-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/method.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.cs-local-function-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/cs-local-function.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+
+.project-view li.property-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/property.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.field-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/field.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.interface-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/interface.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.enum-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/enum.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.event-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/event.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.delegate-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/delegate.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.initialize-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/constructor.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.xml-file-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/xml.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.xml-tag-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/xmlService.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.resource-root-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/resourcesRoot.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+.project-view li.project-root-node:before {
+	/* folder icon if folder class is specified */
+	background-image: url("./assets/icons/projectStructure.svg");
+	background-position: center top;
+	background-size: 90% auto;
+}
+
+
+.view-border {
+	z-index: 10;
+	background-color: #3c3f41 !important;
+	height: 1px;
+}
+
+/* div box */
+// body{background-color:#babac0}
+.project-view {
+	height: 75vh;
+	width: 25vw;
+	min-width: 150px;
+	background: #3c3f41;
+	overflow-y: scroll;
+
+	@include scrollBar;
+}
+.overflow {
+	min-height: 95vh;
+}
+
+// Notifier css
+.alert-danger {
+	background-color: #fb483a !important;
+}
+
+.alert {
+	color: #fff !important;
+	padding: .75rem .75rem;
+    margin-bottom: 1rem;
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+#error_msg {
+	a {
+		background-color: transparent;
+		margin: 5px;
+	}
+}
+
+.accordion-button{
+	span.badge {
+		font-size: 13px !important;
+		background-color: #263238;
+
+		.fromDependency {
+			height: 20px;
+			width: 20px;
+			background-image: url("./assets/icons/import.svg") !important;
+			background-position: center top;
+			background-size: contain;
+		}
+
+		.toDependency {
+			height: 20px;
+			width: 20px;
+			background-image: url("./assets/icons/export.svg") !important;
+			background-position: center top;
+			background-size: contain;
+		}
+	}
+}
+
+.accordion-body {
+	padding: 8px 8px 8px 8px !important;
+	white-space: nowrap;
+	font-size: 14px;
+}
+
+.noselection .noselectionVC  .noselectionDV .ace_marker-layer .ace_selection {
+	background: transparent;
+ }
+ 
+ .noselection .noselectionVC  .noselectionDV .ace_cursor {
+	color: transparent;
+ }

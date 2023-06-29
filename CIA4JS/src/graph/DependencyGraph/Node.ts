@@ -38,7 +38,6 @@ export abstract class Node {
     setPath(path: string) {
         this.path = path
     }
-
     getName() {
         return this.name;
     }

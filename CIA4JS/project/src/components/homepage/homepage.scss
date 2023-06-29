@@ -1,0 +1,73 @@
+@import "../../assets/scss/mixin/scroll/scroll";
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@600&family=Manrope:wght@800&display=swap');
+
+.homepage-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7rem;
+  padding: 0 2rem;
+
+  .welcome {
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Encode Sans', sans-serif;
+  }
+
+  .homepage-content {
+    display: flex;
+    text-align: center;
+    padding: 20px 5px 20px 5px;
+    flex-direction: column;
+
+    .img {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .recent-projects {
+      margin-top: 110px;
+      div {
+        text-align: initial;
+        font-size: 18px;
+      }
+
+      ul {
+        list-style-type: none;
+        overflow-y: scroll;
+        height: 570px;
+
+        @include home_proj_scrollBar;
+
+        li {
+          display: block;
+          height: auto;
+          padding: 5px 5px;
+          line-height: 100%;
+          background-color: #FFFFFF;
+          margin-bottom: 10px;
+          border-radius: 5px;
+          cursor: pointer;
+
+          b{
+            margin-bottom: 5px;
+            text-align: initial;
+          }
+
+          .proj-info {
+            text-align: initial;
+            margin: 5px 5px;
+            font-size: 14px;
+          }
+        }
+
+        li:hover {
+          background-color: #E6F5FA;
+        }
+      }
+    }
+  }
+}
